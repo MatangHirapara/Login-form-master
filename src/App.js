@@ -36,7 +36,7 @@ function App() {
   };
   // console.log('props', props)
   return (
-    <>
+    <> 
       <Routes>
         <Route path="/" element={<Layout props={props}/>}>
         <Route path="/contact" element={<Contact />} />

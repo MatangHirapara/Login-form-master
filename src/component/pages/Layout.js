@@ -9,7 +9,7 @@ const Layout = ({props}) => {
     <>
       <CssBaseline />
       <Navbar props={props}/>
-      <Outlet />
+      <Outlet /> 
     </>
   )
 }

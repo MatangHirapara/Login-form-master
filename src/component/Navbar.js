@@ -10,7 +10,7 @@ const Navbar = ({props}) => {
   const logout = () => {
     navigate('/')
     props.removeDatas();
-    localStorage.removeItem("select_tab");
+    localStorage.removeItem("select_tab"); 
   };
   return (
     <>
